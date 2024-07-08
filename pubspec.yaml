@@ -1,0 +1,50 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: any
+  cloud_firestore: ^4.8.2
+  firebase_auth: ^4.6.3
+  firebase_storage: ^11.2.4
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/international_yoga_day_011.png
+    - assets/images/rectangle_1.png
+    - assets/images/rectangle_5.jpeg
+    - assets/images/rectangle_2.jpeg
+    - assets/images/rectangle_4.jpeg
+    - assets/images/home_1.jpeg
+    - assets/images/rectangle_3.jpeg
+    - assets/images/rectangle_11.jpeg
+    - assets/images/layer_11.png
+    - assets/images/layer_111.png
+    - assets/images/pose_master_1.png
+    - assets/images/shape_4_copy_2.png
+    - assets/images/international_yoga_day_011.png
+    - assets/images/green_check_1.png
+    - assets/images/rectangle_18.jpeg
+    - assets/images/f_489394725_oox_6_jg_48_u_2_k_0_fsk_4_rl_pczqk_u_7_qvu_2_bsu_1.jpeg
+    - assets/images/rectangle_10.jpeg
+    - assets/images/rectangle_13.jpeg
+    - assets/images/untitled_11.jpeg
+    - assets/images/lovepik_green_flat_plant_yoga_banner_image_5629888_list_1.png
+
+
